@@ -4,6 +4,14 @@ Reference documentation for **Levlin Bridge**, a Windows plug-in that moves geom
 
 **Status: in final testing. Not released.** This repository is reference material only — there is no download here. Product page: https://levlin.net
 
+## Reference pages
+
+| Page | What it covers |
+|---|---|
+| [Version support](docs/VERSION-MATRIX.md) | The 24 supported Revit and 3ds Max combinations, platform, renderers, seats. |
+| [Layers and object identity](docs/LAYERS.md) | Layer naming, what an object is, instances, real-world UVW, Claim and Release. |
+| [Safeguard](docs/SAFEGUARD.md) | What happens when elements are deleted in Revit, and how they come back. |
+
 ## What it does
 
 Push the model from Revit, pull it into 3ds Max, and push the geometry you changed back into Revit as real elements.
